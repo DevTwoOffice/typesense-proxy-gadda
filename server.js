@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use(async (req, res) => {
   try {
-    const targetBase = "http://103.217.220.232:80";
+    const targetBase = "http://35.154.33.213:8108";
     const targetUrl = targetBase + req.originalUrl;
 
     const response = await fetch(targetUrl, {
